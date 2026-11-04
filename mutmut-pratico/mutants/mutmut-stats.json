@@ -1,0 +1,36 @@
+{
+    "tests_by_mangled_function_name": {
+        "loja.x_calcular_desconto": [
+            "test_loja.py::test_compra_acima_de_100_com_fidelidade",
+            "test_loja.py::test_compra_abaixo_de_100_com_fidelidade",
+            "test_loja.py::test_compra_acima_de_100_sem_fidelidade",
+            "test_loja.py::test_valor_exato_de_borda_100"
+        ]
+    },
+    "duration_by_test": {
+        "test_loja.py::test_compra_acima_de_100_sem_fidelidade": 0.00013973099999020633,
+        "test_loja.py::test_compra_abaixo_de_100_com_fidelidade": 0.00011419300005854893,
+        "test_loja.py::test_compra_acima_de_100_com_fidelidade": 0.00021136500004104164,
+        "test_loja.py::test_valor_exato_de_borda_100": 0.00016609999988759228
+    },
+    "stats_time": 0.2984471430000001,
+    "function_hashes": {
+        "loja.x_calcular_desconto": "da18e99c9e50"
+    },
+    "function_dependencies": {},
+    "config_fingerprint": {
+        "test_execution": "2e38e77b22c3",
+        "test_selection": "2e38e77b22c3",
+        "timeout": "d3052321fdc3",
+        "type_check": "2e38e77b22c3"
+    },
+    "watched_file_hashes": {
+        "setup.cfg": "8a476b6f51e0",
+        "__pycache__/loja.cpython-314.pyc": "71f063bf6779",
+        "__pycache__/test_loja.cpython-314-pytest-9.2.0.pyc": "3f860b0c28e7",
+        "mutants/loja.py.meta": "d630eeca7565",
+        "mutants/loja.py.spans": "da728c8a285d",
+        "mutants/setup.cfg": "8a476b6f51e0"
+    },
+    "git_commit": "f5a362e3e1f82a6a9ea29a177d9ef80c8e670566"
+}
